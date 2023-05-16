@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family= Poppins :wght@200;500;700 & display=swap');
-
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(77, 17, 63);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 255);
 }
 
 /* HEADER */
@@ -13,8 +11,8 @@ body {
     height: 100vh;
     height: 100vw;
     background-color:rgb(88, 246, 91);
-
     background-repeat: no-repeat;
+    background-image: url('./img/eagle.png');
     background-position: center;
     background-size: contain;
     display: flex;
@@ -22,7 +20,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 115px;
+    padding: 110px;
     position: relative;
 }
 
@@ -46,5 +44,13 @@ h2 {
     text-decoration: none;
     color: rgb(77, 17, 63);
     padding: 1rem 4rem;
-   
+    border: 1px solid black;
+    min-width: 4rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a:hover {
+    background-color: chartreuse;
 }
