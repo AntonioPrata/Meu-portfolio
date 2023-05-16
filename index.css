@@ -2,55 +2,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(0, 0, 255);
+    background-color: rgb(225, 33, 33);
 }
-
-/* HEADER */
-
-.header-container {
+.div-main {
+    background-color: blue;
     height: 100vh;
-    height: 100vw;
-    background-color:rgb(88, 246, 91);
-    background-repeat: no-repeat;
-    background-image: url('./img/eagle.png');
-    background-position: center;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    box-sizing: border-box;
-    padding: 110px;
-    position: relative;
 }
-
-h1 {
-    font-size: 50px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-h2 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-.social-media {
-    margin-top: 1rem;
-    display: flex;
-}
-
-.social-media a {
-    text-decoration: none;
-    color: rgb(77, 17, 63);
-    padding: 1rem 4rem;
-    border: 1px solid black;
-    min-width: 4rem;
-    align-items: center;
-    justify-content: center;
-
-}
-
-a:hover {
-    background-color: chartreuse;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
 }
