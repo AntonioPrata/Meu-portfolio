@@ -18,9 +18,6 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-main {
-    display: flex;
-}
 .navbar-brand{
     margin-left: 10px;
 }
